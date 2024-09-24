@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name        = 'chbr'
-  spec.version     = '0.2.0'
+  spec.version     = '0.2.1'
   spec.executables << 'chbr'
   spec.summary     = 'Change branch tool'
   spec.description = 'A simple CLI tool to change branches in a git repositoy. ' \
