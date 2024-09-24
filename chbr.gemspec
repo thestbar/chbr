@@ -10,9 +10,12 @@ Gem::Specification.new do |spec|
   spec.authors     = ['thestbar']
   spec.email       = 'stavrosbarousis@gmail.com'
   spec.files       = ['lib/chbr.rb']
-  spec.homepage    = 'https://rubygems.org/gems/chbr'
+  spec.homepage    = 'http://github.com/thestbar/chbr'
   spec.license     = 'MIT'
-  spec.required_ruby_version = '>= 2.7.0'
+  spec.required_ruby_version = '>= 3.0.0'
+
+  spec.metadata['homepage_uri'] = spec.homepage
+  spec.metadata['source_code_uri'] = spec.homepage
 
   spec.add_dependency 'git', '~> 2.3'
   spec.add_dependency 'optparse', '~> 0.4'
