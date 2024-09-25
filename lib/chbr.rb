@@ -75,9 +75,9 @@ class Chbr
     puts '[ENTER] to checkout branch, [X] to delete branch, [P] to purge branches'
 
     result = `
-    git branch | fzf --bind "enter:accept,X:become(echo {}'%%%delete')+abort,P:accept+become(echo {}'%%%purge')+abort" --height 40% --layout reverse|
-    tr -d "*[:space:]|+[:space:]"
-  `
+      git branch | fzf --bind "enter:accept,X:become(echo {}'%%%delete')+abort,P:accept+become(echo {}'%%%purge')+abort" --height 40% |
+      tr -d "*[:space:]|+[:space:]"
+    `
 
     return puts 'No branch selected' if result.empty?
 
