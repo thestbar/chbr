@@ -8,6 +8,7 @@
 ### Prerequisites
 - ruby version >= 3.3.0
 - git version >= 2.28.0
+- fzf version >= 0.55.0
 
 To install on all platforms:
 ```bash
