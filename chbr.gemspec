@@ -17,6 +17,7 @@ Gem::Specification.new do |spec|
   spec.metadata['homepage_uri'] = spec.homepage
   spec.metadata['source_code_uri'] = spec.homepage
 
+  spec.add_dependency 'forwardable', '~> 1.3'
   spec.add_dependency 'git', '~> 2.3'
   spec.add_dependency 'optparse', '~> 0.4'
 end
