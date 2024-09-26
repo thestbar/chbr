@@ -23,6 +23,13 @@ While on a git repository type on console:
 chbr
 ```
 
+### Available flags
+| Flag | Info |
+| - | - |
+| -p, --path PATH | Path to the git repository (Defaults to current repository) |
+| -t, --timeout TIMEOUT | Set the timeout for git commands in seconds (Defaults to 5) |
+| --disable-reopen | Disable reopening the panel after an action is performed (Defaults to true) |
+
 On the fzf search panel select a branch and type one of the following characters:
 - `ENTER` to checkout to selected branch
 - `X` to delete selected branch
